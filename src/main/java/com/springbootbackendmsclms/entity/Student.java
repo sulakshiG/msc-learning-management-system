@@ -41,66 +41,82 @@ public class Student {
 
     // Getters and Setters
     public String getStudentIndex() {
+
         return studentIndex;
     }
 
     public void setStudentIndex(String studentIndex) {
+
         this.studentIndex = studentIndex;
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public String getStudentRegistrationNo() {
+
         return studentRegistrationNo;
     }
 
     public void setStudentRegistrationNo(String studentRegistrationNo) {
+
         this.studentRegistrationNo = studentRegistrationNo;
     }
 
     public String getEmail() {
+
         return email;
     }
 
     public void setEmail(String email) {
+
         this.email = email;
     }
 
     public String getContactNo() {
+
         return contactNo;
     }
 
     public void setContactNo(String contactNo) {
+
         this.contactNo = contactNo;
     }
 
     public Date getDateOfBirth() {
+
         return dateOfBirth;
     }
 
     public void setDateOfBirth(Date dateOfBirth) {
+
         this.dateOfBirth = dateOfBirth;
     }
 
     public String getAcademicYear() {
+
         return academicYear;
     }
 
     public void setAcademicYear(String academicYear) {
+
         this.academicYear = academicYear;
     }
 
     public Gender getGender() {
+
         return gender;
     }
 
     public void setGender(Gender gender) {
+
         this.gender = gender;
     }
 

@@ -34,6 +34,7 @@ public class StudentController {
 
         return studentRepository.save(student);
     }
+
 //    // PUT request to update an existing student
 //    @PutMapping("/{studentIndex}")
 //    public ResponseEntity<Student> updateStudent(@PathVariable("studentIndex") String id, @RequestBody Student studentToBeUpdated) {

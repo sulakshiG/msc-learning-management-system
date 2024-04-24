@@ -152,7 +152,7 @@ CREATE TABLE `location` (
 --
 
 CREATE TABLE `non_academic_staff` (
-  `staff_id` varchar(10) DEFAULT NULL,
+  `staff_id` varchar(10) NOT NULL,
   `over_time_hours` int(11) DEFAULT NULL,
   `over_time_hour_rate` int(11) DEFAULT NULL,
   `designation` varchar(100) DEFAULT NULL
