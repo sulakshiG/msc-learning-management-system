@@ -27,6 +27,10 @@ public class StudentController {
         return studentRepository.findAll();
     }
 
+    @GetMapping("/{studentIndex}")
+    public Student getStudent(@PathVariable String studentIndex) {
+        return studentRepository.findById(studentIndex).orElseThrow(RuntimeException::new);
+    }
 
     // POST request to create a new student
     @PostMapping
@@ -47,6 +51,8 @@ public class StudentController {
 //        Student updatedStudent = studentRepository.save(student);
 //        return ResponseEntity.ok(updatedStudent);
 //    }
+
+
 
     // DELETE request to delete a student by ID
     @DeleteMapping("/{studentIndex}")
